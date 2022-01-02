@@ -1,0 +1,51 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: bisque;
+  height: 200vh;
+}
+
+.icones {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  font-size: 20px;
+  z-index: 1000;
+  box-shadow: 2px 2px 2px rgba(182, 46, 5, 0);
+
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.whats {
+  background-color: green;
+}
+
+.face {
+  background-color: rgb(41, 43, 192);
+}
+
+.insta {
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+a:hover {
+  transition: 0.4s all ease-in-out;
+  transform: scale(1.2);
+}
